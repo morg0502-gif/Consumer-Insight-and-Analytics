@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "outline": "#8c7070",
+                    "on-secondary-container": "#735d00",
+                    "on-tertiary-fixed-variant": "#3d4757",
+                    "on-error-container": "#93000a",
+                    "surface-bright": "#fbf9f8",
+                    "secondary-fixed-dim": "#e8c349",
+                    "surface-tint": "#ae2e39",
+                    "tertiary": "#1a2433",
+                    "on-secondary-fixed": "#231b00",
+                    "on-background": "#1b1c1c",
+                    "inverse-primary": "#ffb3b2",
+                    "on-surface": "#1b1c1c",
+                    "surface-container-low": "#f6f3f2",
+                    "surface-variant": "#e4e2e1",
+                    "primary-fixed": "#ffdad9",
+                    "surface-container": "#f0eded",
+                    "outline-variant": "#e0bfbe",
+                    "primary-container": "#7a0019",
+                    "error-container": "#ffdad6",
+                    "on-primary-container": "#ff7b7f",
+                    "secondary": "#735c00",
+                    "on-secondary-fixed-variant": "#564500",
+                    "surface-dim": "#dcd9d9",
+                    "surface-container-highest": "#e4e2e1",
+                    "on-tertiary-container": "#9aa4b7",
+                    "secondary-container": "#fdd75b",
+                    "primary-fixed-dim": "#ffb3b2",
+                    "on-surface-variant": "#584141",
+                    "tertiary-fixed": "#d9e3f7",
+                    "background": "#fbf9f8",
+                    "tertiary-container": "#303a4a",
+                    "on-tertiary-fixed": "#121c2a",
+                    "surface-container-lowest": "#ffffff",
+                    "surface": "#fbf9f8",
+                    "on-error": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed-dim": "#bdc7db",
+                    "inverse-on-surface": "#f3f0f0",
+                    "on-primary-fixed-variant": "#8d1324",
+                    "on-primary-fixed": "#410009",
+                    "surface-container-high": "#eae8e7",
+                    "error": "#ba1a1a",
+                    "secondary-fixed": "#ffe083",
+                    "primary": "#51000d",
+                    "on-tertiary": "#ffffff",
+                    "inverse-surface": "#303030",
+                    "on-primary": "#ffffff"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(251, 249, 248, 0.8);
+            backdrop-filter: blur(24px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav style="position: relative; z-index: 1000; display: flex; gap: 20px; align-items: center; padding: 20px; background: white;">
+ <a href="index.html">Home</a>
+ <a href="Experiences.html">Experiences</a>
+ <a href="Access.html">Access</a>
+ <a href="Cohort.html">Cohort</a>
+ <a href="Alumni.html">Alumni</a>
+ <a href="internships.html">Internships</a>
+ <a href="Apply.html">Apply</a>
+</nav><div style="height: 20px;"></div>
+<a href="https://lsbe.d.umn.edu/cia" target="_blank">
+    <button class="bg-[#7A0019] text-white px-6 py-2 rounded-md font-bold text-sm tracking-wide hover:opacity-90 scale-95 active:scale-90 transition-all">
+                Apply
+    </button>
+</a>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative px-8 py-24 max-w-7xl mx-auto overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="z-10">
+<span class="inline-block text-primary font-label text-sm font-bold tracking-[0.1em] uppercase mb-4 px-3 py-1 bg-primary-fixed rounded-full">Student Resources</span>
+<h1 class="text-6xl md:text-7xl font-headline font-black tracking-tighter text-primary leading-[0.9] mb-8">
+                        Access, Support, <br/>and <span class="text-secondary">Opportunity.</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed mb-10">
+                        The Consumer Insights &amp; Analytics Program provides the infrastructure for excellence. From 24/7 high-performance lab access to dedicated financial support and elite professional networks.
+                    </p>
+
+</div>
+</div>
+<div class="relative">
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-secondary-container/20 rounded-full blur-3xl"></div>
+<div class="relative rounded-xl overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+<img alt="Modern CIA Lab" class="w-full aspect-[4/3] object-cover" data-alt="modern data analytics lab with multiple monitors showing complex charts and students collaborating in a professional setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8slbGVOltrIztE4TGlFWzyIphjWZKNr9L2qf-bpelk15yWrTTVNhZwofy0974PPDLDm6b4FN5pxccslFlBx-VhxvevW8zk0f9_6aRl8LDuMWXN1Gdq3V46ysMk4z2V3DHlNThxbQS9U3Bd9K5kure6ri2N2ONmMsO69pW7wnJP-wCGHUjDaTAMg0VjHDHS_GljwJxNftpo2rmu0t33b8fqRo4qY12Q_xU7M2vkGU_LS_z7W-_Y-siMhyn438oAX4vXrbj0SuzbHE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 24/7 Lab Access Section (Asymmetric Bento Style) -->
+<section class="bg-surface-container-low py-24 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-headline font-extrabold tracking-tight text-primary mb-6">24/7 Strategic Workspace</h2>
+<p class="text-on-surface-variant text-lg">Your growth doesn't follow a 9-to-5 schedule. Our state-of-the-art lab is an extension of your professional identity, equipped with industry-leading analytical tools.</p>
+</div>
+<div class="bg-secondary-fixed text-on-secondary-fixed p-6 rounded-xl flex items-center gap-4 shadow-lg">
+<span class="material-symbols-outlined text-4xl" data-icon="lock_open">lock_open</span>
+<div class="font-bold">Keycard Access Only</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-2xl flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+<div>
+<span class="material-symbols-outlined text-primary text-5xl mb-6" data-icon="terminal">terminal</span>
+<h3 class="text-2xl font-bold mb-4">High-Performance Computing</h3>
+<p class="text-on-surface-variant mb-8">Access workstations pre-loaded with Tableau, SQL Server, Python, and R environments for heavy data processing and visualization.</p>
+</div>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold">SQL Server</span>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold">Python</span>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold">Tableau</span>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-xs font-bold">Alteryx</span>
+</div>
+</div>
+<div class="bg-primary text-on-primary p-10 rounded-2xl flex flex-col justify-center items-center text-center shadow-xl">
+<div class="text-7xl font-black mb-2">24/7</div>
+<div class="text-xl font-bold opacity-80 uppercase tracking-widest">Total Availability</div>
+<div class="mt-8 text-sm opacity-70">Dedicated workspace within the Labovitz School of Business and Economics.</div>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm md:col-span-3 lg:col-span-1 border border-outline-variant/10">
+<h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary" data-icon="groups">groups</span>
+                            Collaborative Zones
+                        </h3>
+<p class="text-on-surface-variant">Soundproof breakout rooms and modular whiteboards designed for cohort project sprints.</p>
+</div>
+<div class="md:col-span-2 relative h-64 rounded-2xl overflow-hidden group">
+<img alt="Collaborative Space" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="ultra modern minimalist office lounge with floor to ceiling windows and comfortable seating for collaborative work" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1G2YTk2zfL1E52_-3d6HpCTtYPiQYi5fDaijXNlms8FjQgtcLQ9xwwMFrfPH8Wk9VRAnVqBE0cw2_3ks9KTSOx7dHLjoRGrk3M4O8m21LSXVGbb-1b0Wsz2RZxZbjS_3hj4LH1vR6dCjDo2a40tubBtv3tJhRTGTxHwhBnwbMTZijcPmUjue9YLVJhQnREKIxpSLyfcGcWTpti87695SUjpfOfytJUDc-ZGYZdv5j5FFM1RkTojlPQh1lnaFIssNZy-QCSmsQN68"/>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Scholarships Section -->
+<section class="py-24 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1 relative">
+<div class="absolute -bottom-8 -right-8 w-full h-full bg-surface-container-high rounded-xl -z-10"></div>
+<div class="bg-surface-container-lowest p-12 rounded-xl shadow-2xl relative">
+<div class="mb-12">
+<h3 class="text-3xl font-headline font-black text-primary mb-2">Growth Through Support</h3>
+<div class="h-1 w-24 bg-secondary"></div>
+</div>
+<ul class="space-y-8">
+<li class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="payments">payments</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Lab Assistantships</h4>
+<p class="text-on-surface-variant">Paid positions for cohort leaders to maintain the analytics infrastructure and mentor peers.</p>
+</div>
+</li>
+<li class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">The CIA Merit Award</h4>
+<p class="text-on-surface-variant">An annual scholarship awarded to top performers in the Consumer Analytics sequence.</p>
+</div>
+</li>
+<li class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="flight_takeoff">flight_takeoff</span>
+</div>
+<div>
+<h4 class="font-bold text-lg">Professional Development Fund</h4>
+<p class="text-on-surface-variant">Stipends available for conference travel and professional certification exams.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="order-1 lg:order-2">
+<label class="text-primary font-bold tracking-widest text-xs uppercase block mb-4">Financial Empowerment</label>
+<h2 class="text-5xl font-headline font-black tracking-tighter text-primary mb-8 leading-tight">Investing in the Next Generation of Analysts.</h2>
+<p class="text-lg text-on-surface-variant mb-10 leading-relaxed">
+                        We believe financial barriers should never hinder intellectual curiosity. Our scholarship programs are designed to reward excellence and provide the breathing room needed for deep analytical exploration.
+                    </p>
+<div class="grid grid-cols-2 gap-8 border-t border-outline-variant pt-10">
+<div>
+<div class="text-4xl font-black text-primary">$15K+</div>
+<div class="text-sm font-medium text-on-surface-variant mt-2 uppercase tracking-wide">Awarded Annually</div>
+</div>
+<div>
+<div class="text-4xl font-black text-primary">85%</div>
+<div class="text-sm font-medium text-on-surface-variant mt-2 uppercase tracking-wide">Cohort Participation</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Mentors & Industry Support (Editorial/Testimonial Style) -->
+<section class="bg-primary py-24 px-8 relative overflow-hidden">
+<!-- Background Texture -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 40px 40px;"></div>
+</div>
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-headline font-black text-on-primary mb-6 tracking-tighter">Connecting with the Elite.</h2>
+<p class="text-on-primary-container max-w-2xl mx-auto text-lg opacity-90">Our alumni network spans the Fortune 500, providing a direct pipeline for mentorship and industry insight.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Mentor Card 1 -->
+<div class="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 hover:border-secondary/40 transition-all group">
+<div class="flex items-center gap-4 mb-8">
+
+<div>
+<div class="font-bold text-on-primary">Brett Kittilstved</div>
+<div class="text-secondary text-sm font-medium">Regional Vice President, NetSPI</div>
+</div>
+</div>
+<p class="text-on-primary-container italic text-lg leading-relaxed mb-6">"The CIA lab was where I learned to translate raw numbers into business impact. Now, I help current students find that same bridge."</p>
+<div class="flex items-center gap-2 text-secondary font-bold text-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm" data-icon="chat">chat</span>
+                            Mentorship Available
+                        </div>
+</div>
+<!-- Mentor Card 2 -->
+<div class="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 hover:border-secondary/40 transition-all group">
+<div class="flex items-center gap-4 mb-8">
+
+<div>
+<div class="font-bold text-on-primary">Andrea (Johnson) Binder</div>
+<div class="text-secondary text-sm font-medium">Vice President, NielsenIQ</div>
+</div>
+</div>
+<p class="text-on-primary-container italic text-lg leading-relaxed mb-6">"Access to this network gave me my first internship. I return every year to scout for the best analytical talent the program offers."</p>
+<div class="flex items-center gap-2 text-secondary font-bold text-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm" data-icon="work">work</span>
+                            Recruiting Partner
+                        </div>
+</div>
+<!-- Mentor Card 3 -->
+<div class="bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 hover:border-secondary/40 transition-all group">
+<div class="flex items-center gap-4 mb-8">
+
+<div>
+<div class="font-bold text-on-primary">Hannah Osterheim</div>
+<div class="text-secondary text-sm font-medium">Director, Customer Success, Arctic Wolf Networks</div>
+</div>
+</div>
+<p class="text-on-primary-container italic text-lg leading-relaxed mb-6">"The professional growth I experienced through the CIA's industry connections was a total game-changer for my career trajectory."</p>
+<div class="flex items-center gap-2 text-secondary font-bold text-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-sm" data-icon="star">star</span>
+                            Industry Support
+                        </div>
+</div>
+</div>
+<div class="mt-20 text-center">
+<a class="inline-flex items-center gap-3 text-secondary-container font-black text-xl hover:text-secondary transition-colors group" href="#">
+                        
+</a>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-8 max-w-7xl mx-auto text-center">
+<div class="bg-surface-container-high rounded-3xl p-16 relative overflow-hidden">
+<div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl"></div>
+<div class="relative z-10">
+<h2 class="text-4xl md:text-5xl font-headline font-black text-primary mb-8 tracking-tighter">Ready to Access Your Future?</h2>
+<p class="text-on-surface-variant text-lg max-w-2xl mx-auto mb-10">Join the CIA program and gain the infrastructure, funding, and network needed to become a leader in consumer analytics.</p>
+
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-stone-50 dark:bg-stone-950 font-['Inter'] text-sm leading-relaxed">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 w-full px-8 py-16 max-w-7xl mx-auto border-t border-stone-200 dark:border-stone-800">
+<div class="space-y-4">
+<div class="text-lg font-bold text-[#7A0019] dark:text-stone-100">CIA Program</div>
+<p class="text-stone-500 dark:text-stone-500 max-w-xs">
+                    Empowering the next generation of marketing analytics professionals at the University of Minnesota Duluth.
+                </p>
+</div>
+<div class="flex flex-col space-y-4">
+<h4 class="font-bold text-stone-900 dark:text-white uppercase tracking-widest text-xs">Resources</h4>
+<a href="https://lsbe.d.umn.edu/cia" target="_blank">
+    <button class="bg-[#7A0019] text-white px-6 py-2 rounded-md font-bold text-sm tracking-wide hover:opacity-90 scale-95 active:scale-90 transition-all">
+                Apply
+    </button>
+                        
+</a>
+<a href="https://www.linkedin.com/school/university-of-minnesota-duluth/posts/?feedView=all" target="_blank">
+    <button class="bg-[#7A0019] text-white px-6 py-2 rounded-md font-bold text-sm tracking-wide hover:opacity-90 scale-95 active:scale-90 transition-all">
+                LinkedIn
+    </button>
+</a>
+
+</div>
+<div class="space-y-4">
+<h4 class="font-bold text-stone-900 dark:text-white uppercase tracking-widest text-xs">University of Minnesota Duluth</h4>
+<p class="text-stone-500 dark:text-stone-500">
+                    Labovitz School of Business and Economics<br/>
+                    Duluth, MN 55812
+                </p>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 py-8 border-t border-stone-100 dark:border-stone-900 text-stone-400 text-center md:text-left">
+            © Consumer Insights &amp; Analytics Program | Labovitz School of Business and Economics | University of Minnesota Duluth
+        </div>
+</footer>
+</body></html>
